@@ -44,3 +44,21 @@ Project Organization
     │       └── visualize.py
     │
     └── LICENSE
+
+## Notes
+
+### Essential questions
+
+* Did you specify the type of data analytic question (e.g. exploration, association causality) before touching the data?
+	* We are trying to order the places (i.e by their likelihood) based on the following measurements from the dataset: coordinates, accuracy (?), time (?) and place_id.
+	
+* Did you define the metric for success before beginning?
+	* The metric is Mean Average Precision (What is this?)
+* Did you understand the context for the question and the scientific or business application?
+	* We are building a system that would rank a list of places given 'coords', 'accuracy' and 'time'. The purpose might be to enable for specific ads (i.e interesting places around the hotel) to be shown to the person (on FB?) depending on this list.
+* Did you record the experimental design?
+	* Given.
+* Did you consider whether the question could be answered with the available data?
+	* We need to further explore 'accuracy' and to check if we could identify different clusters of users - we don't know if the data was genereted by 1 person or many, so we need to check its structure.
+	
+### Checking the data
