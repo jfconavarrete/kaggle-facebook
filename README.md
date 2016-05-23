@@ -6,6 +6,10 @@ Kaggle Facebook Competition
 Project template created using cookiecutter.
 https://drivendata.github.io/cookiecutter-data-science/
 
+## Getting Started
+
+1. Run src/data/download_dataset.py to download and extract the datasets.
+
 Project Organization
 ------------
 
