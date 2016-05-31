@@ -1,3 +1,4 @@
 .idea
 data/downloads/*.zip
 data/raw/*.csv
+.ipynb_checkpoints
