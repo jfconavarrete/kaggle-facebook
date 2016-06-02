@@ -81,3 +81,8 @@ Project Organization
 	everything else is the number of seconds since 0.
 	
 	* Last column is the class_id, given as an integer
+
+### Modelling
+* Based on our assumption that the 'accuracy' column indicates GPS uncertainty, we would like to first pin-point the possible real locations of all unique places. We are currently trying to apply K-Means for that purpose, however the dataset is huge - need to find a GPU-based implementation.
+
+* Following, we might use the cluster centers directly to train a classifier or build some basis-functions centered at the centroids. The reasoning behind that is that we would like to be able to rate a place based on its distance to a given data point.
